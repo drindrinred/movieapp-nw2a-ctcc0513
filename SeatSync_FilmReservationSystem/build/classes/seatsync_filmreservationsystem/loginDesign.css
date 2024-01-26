@@ -1,0 +1,80 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 01 14, 24, 6:51:04 PM
+    Author     : Iris Jewel
+*/
+
+.bg-form {
+    -fx-background-color: linear-gradient(to top right, #1e242e, #ae2d3c);
+}
+
+.close {
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+}
+
+.close:hover{
+    -fx-background-color: #ae2d3c;
+}
+
+.minimize{
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+}
+
+.minimize:hover{
+    -fx-background-color: #ae2d3c;
+}
+
+.textfield {
+    -fx-background-color: transparent;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 14px;
+    -fx-text-inner-color: #ffffff;
+    -fx-border-color: #d63333;
+    -fx-border-width: 0px 0px .4px 0px;
+}
+
+.textfield:focused {
+    -fx-background-color: transparent;
+    -fx-border-color: #fb6363;
+    -fx-border-width: 0px 0px 1px 0px;
+}
+
+.login-btn {
+    -fx-background-color: linear-gradient(to bottom right, #3862c2, #4284d0);
+    -fx-background-radius: 8px;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+}
+
+.hyperlink {
+    -fx-underline: false;
+    -fx-text-fill: #fb6363;
+    -fx-border-color: transparent;
+    -fx-border-width: 0px;
+}
+
+.hyperlink:hover {
+    -fx-text-fill: #ff3f3f;
+}
+
+.sign {
+    -fx-text-fill: #ffffff;
+}
+
+.sign-btn {
+    -fx-background-color: linear-gradient(to bottom right, #3e785c, #399a73);
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+    -fx-font-size: 14px;
+}
+
+.sign-btn:hover {
+    -fx-background-color: linear-gradient(to bottom right, #4d9a76, #45b796);
+}

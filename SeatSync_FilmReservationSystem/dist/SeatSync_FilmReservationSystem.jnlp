@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="SeatSync_FilmReservationSystem.jnlp">
+  <information>
+    <title>SeatSync_FilmReservationSystem</title>
+    <vendor>Ramon Christopher</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="SeatSync_FilmReservationSystem.jar" size="14829657" download="eager" />
+    <jar href="lib\fontawesomefx-8.2.jar" size="180341" download="eager" />
+    <jar href="lib\mysql-connector-j-8.3.0.jar" size="2495536" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="seatsync_filmreservationsystem.SeatSync_FilmReservationSystem"  name="SeatSync_FilmReservationSystem" />
+  <update check="always"/>
+</jnlp>
